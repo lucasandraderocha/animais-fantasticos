@@ -10,6 +10,7 @@ import Operation from "./modules/operation.js";
 import fetchAnimais from "./modules/fetch-animais.js";
 import fetchBitcoin from "./modules/fetch-bitcoin.js";
 import { SlideNav } from "./modules/slide.js";
+import "../styles/style.css"
 
 const tabNav = new TabNav(
   "[data-tab='menu'] li",
