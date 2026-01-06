@@ -4,9 +4,8 @@ const path = require("path");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "./"),
     filename: "main.js",
-    clean: true
   },
   module: {
     rules: [
@@ -20,11 +19,12 @@ module.exports = {
             plugins: ["@babel/plugin-transform-runtime"],
           },
         },
+
       },
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"]
-      }
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
 };
