@@ -29,7 +29,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 2fr minmax(400px, 800px);
+  grid-template-columns: 1fr 2fr minmax(320px, 800px);
 }
 
 .menu {
