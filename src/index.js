@@ -60,4 +60,3 @@ slide.addControl(".custom-controls");
 
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
 fetchAnimais("./animaisapi.json", ".numeros-grid");
-
