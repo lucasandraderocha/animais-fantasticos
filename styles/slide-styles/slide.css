@@ -44,11 +44,11 @@ img {
   opacity: 1;
   transform: scale(1);
   border-radius: 5rem;
-  cursor: var(--custom-pointer) 10 10, auto;
+  cursor: pointer;
 }
 .slide li.active:active {
   opacity: 1;
   transform: scale(0.95);
   border-radius: 5rem;
-  cursor: var(--custom-pointer) 10 10, auto;
+  cursor: pointer;
 }

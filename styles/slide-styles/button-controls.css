@@ -5,7 +5,7 @@
   width: 100%;
   justify-content: center;
   padding: 1rem;
-  cursor: var(--custom-cursor) 10 10, auto;
+  cursor: pointer;
   grid-column: 1 / -1;
 }
 

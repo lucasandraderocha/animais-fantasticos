@@ -12,7 +12,6 @@ dl {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  cursor: var(--custom-cursor) 10 10, auto;
 }
 img {
   display: block;
@@ -56,7 +55,7 @@ body {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 0.08em;
-  cursor: var(--custom-pointer) 10 10, auto;
+  cursor: pointer;
 }
 
 .grid-section {
