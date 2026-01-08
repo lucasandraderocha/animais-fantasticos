@@ -11,7 +11,7 @@ import fetchAnimais from "./modules/fetch-animais.js";
 import fetchBitcoin from "./modules/fetch-bitcoin.js";
 import { SlideNav } from "./modules/slide.js";
 import "../styles/style.css"
-
+import animaisApi from "./animaisapi.json"
 const tabNav = new TabNav(
   "[data-tab='menu'] li",
   "[data-tab='content'] section"
@@ -59,4 +59,4 @@ slide.addArrow(".prev", ".next");
 slide.addControl(".custom-controls");
 
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
-fetchAnimais("./animaisapi.json", ".numeros-grid");
+fetchAnimais(animaisApi, ".numeros-grid");

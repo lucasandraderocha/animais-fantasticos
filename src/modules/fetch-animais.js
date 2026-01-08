@@ -2,13 +2,9 @@ import NumberAnimation from "./number-animation.js";
 
 export default function fetchAnimais(url, target) {
   const containerNumber = document.querySelector(target);
-
   async function createAnimals() {
     try {
-      const data = await fetch(url);
-      const jsonData = await data.json();
-
-      jsonData.forEach(element => {
+      url.forEach(element => {
         animalAggregate(element);
       });
 
